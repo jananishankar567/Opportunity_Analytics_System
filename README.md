@@ -19,9 +19,9 @@ The Opportunity Analytics System is a full-stack web application developed to he
 
 ## Setup
 1. Clone: `git clone https://github.com/jananishankar567/Opportunity_Analytics_System.git`
-2. Install: `cd client && npm install` then `cd ../server && npm install`
+2. Install: `cd frontend && npm install` then `cd backend && npm install`
 3. Create .env files (see .env.example).
-4. Run: Client - `npm start`, Server - `node server.js`.
+4. Run: frontend - `npm start`, backend - `node server.js`.
 
 Live Demo
 
