@@ -24,6 +24,7 @@ The Opportunity Analytics System is a full-stack web application developed to he
 4. Run: Client - `npm start`, Server - `node server.js`.
 
 Live Demo
-Frontend: https://opportunity-analytics-system-frontend.onrender.com
 
-backend:https://opportunity-analytics-system-backend.onrender.com
+1.Frontend: https://opportunity-analytics-system-frontend.onrender.com
+
+2.backend:https://opportunity-analytics-system-backend.onrender.com
