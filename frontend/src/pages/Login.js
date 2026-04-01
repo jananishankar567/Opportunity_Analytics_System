@@ -17,7 +17,7 @@ function Login() {
     setError("");
     try {
       const res = await axios.post(`${API}/auth/login`, { email, password });
-      login(res.data.token, res.data.role);
+      login(res.data.token, res.data.role,res.data.user); //res.data.user is added
       navigate("/dashboard");
     } catch (err) {
       setError(err.response?.data?.message || "Login failed");

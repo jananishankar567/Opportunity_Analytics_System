@@ -1045,3 +1045,115 @@ textarea {
   font-size: 24px;
   font-weight: bold;
 }
+
+/* side bar */
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background:lightslategray; /* ✅ LIGHT BLUE */
+  color: white;
+  padding: 20px;
+  position: fixed; /* ✅ FIXED SIDEBAR */
+  left: 0;
+  top: 0;
+}
+
+/* Push dashboard right */
+.dashboard {
+  margin-left: 220px; /* ✅ IMPORTANT */
+  width: calc(100% - 220px);
+  padding: 20px;
+}
+
+/* Remove vertical scroll issue */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* User */
+.sidebar-user {
+  margin-bottom: 30px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-role {
+  font-size: 14px;
+}
+
+/* Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar-menu li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-menu .active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Logout */
+.sidebar-logout {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.profile-card {
+  background: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-field {
+  margin-bottom: 15px;
+}
+
+.profile-field label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-field p {
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.profile-field input {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.edit-btn{
+  background-color: green;
+}
